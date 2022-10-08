@@ -8,6 +8,6 @@ def search_weekend(week_number):
         return "number doesn't match the day of the week"
 
 
-day = int(input("ender day of the week: "))
+day = int(input("ender digit day of the week: "))
 
 print(search_weekend(day))

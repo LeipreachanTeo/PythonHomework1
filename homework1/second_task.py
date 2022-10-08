@@ -6,11 +6,11 @@ def check_predict(x, y, z):
     return result
 
 
-x, y, z = map(int,input('Ender x,y,z: ').split())
+x, y, z = map(int, input('Ender x,y,z: ').split())
 
-check_predict(x,y,z)
+check_predict(x, y, z)
 
-if check_predict(x,y,z) == True:
+if check_predict(x, y, z) == True:
     print(f"Statement is True")
 else:
     print(f"Statement if False")
