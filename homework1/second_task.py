@@ -11,6 +11,6 @@ x, y, z = map(int,input('Ender x,y,z: ').split())
 check_predict(x,y,z)
 
 if check_predict(x,y,z) == True:
-    print(f"Утверждение истинно")
+    print(f"Statement is True")
 else:
-    print(f"Утверждение ложно")
+    print(f"Statement if False")
