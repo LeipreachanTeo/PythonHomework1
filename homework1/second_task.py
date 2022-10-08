@@ -4,4 +4,4 @@ for x in [True,False]:
         for z in [True,False]:
             left_part = not(x or y or z)
             right_part = not x and not y and not z
-            print(f' x ={x} y = {y} z = {z} ответ = {left_part == right_part}')
+            print(f' x = {x} y = {y} z = {z} answer = {left_part == right_part}')
