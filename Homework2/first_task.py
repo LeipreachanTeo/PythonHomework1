@@ -7,8 +7,8 @@ def is_float(value):
         return False
 
 
-def sum_digit(n: float) -> int:
-    return sum([int(i) for i in str(n) if i.isdigit()])
+def sum_digit(n):
+    return sum([int(i) for i in n if i.isdigit()])
 
 
 digit = input("Введите вещественное число: ")
