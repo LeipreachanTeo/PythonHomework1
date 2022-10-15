@@ -7,6 +7,6 @@ def sum_odd_pos_index(list):
     return sum
 
 
-list_digit = map(int, input("Введите список чисел через проблем: ").split())
+list_digit = list(map(int, input("Введите список чисел через проблем: ").split()))
 print(sum_odd_pos_index(list_digit))
 
