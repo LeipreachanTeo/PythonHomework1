@@ -39,4 +39,4 @@ while not is_float(digit) or not checking_number(digit):
         print("Введено число не в диапозоне от 0.1 до 0.0000000001 с шагом *0.1:")
         digit = input("Введите вещественное число: ")
 
-print(calculate_PI(digit))
+print(f"d={digit},π = {calculate_PI(digit)}")
