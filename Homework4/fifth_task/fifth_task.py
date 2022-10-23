@@ -37,7 +37,6 @@ result_help = []
 for i in result:
     i[0] = str(i[0])
 result.sort(key=lambda x: x[1], reverse=True)
-
 for i in result:
     first_list = ','.join(i)
     result_help.append(first_list.replace(',', 'x'))
