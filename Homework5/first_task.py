@@ -3,12 +3,12 @@
 def del_word(file,word):
     f = open(file, 'r')
     text = f.read().split()
-    def del_slovo():
+    def find_word():
         for i in text:
             if "абв" in i:
                 text.remove(i)
-                del_slovo()
-    del_slovo()
+                find_word()
+    find_word()
     f.close()
     f = open(file, 'w')
     f.write(' '.join(text))
