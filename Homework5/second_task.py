@@ -5,7 +5,6 @@
 # a) Добавьте игру против бота
 #
 # b) Подумайте как наделить бота ""интеллектом""
-import random
 from random import randint
 
 
